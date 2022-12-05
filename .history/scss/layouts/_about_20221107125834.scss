@@ -1,0 +1,23 @@
+@import '../helper/variables';
+.about {
+    // background: url(../img/yellow_top_wave_01.png);
+    overflow: hidden;
+    .aboutUs {
+        align-items: center;
+        &__left {
+            &__h1 {
+                &__top {
+                    font-size: 16.5px;
+                    color: $main-color;
+                    display: block;
+                }
+                &__bot {
+                    font-size: 57px;
+                    color: $main-font-color;
+                    font-weight: 700;
+                    display: block;
+                }
+            }
+        }
+    }
+}

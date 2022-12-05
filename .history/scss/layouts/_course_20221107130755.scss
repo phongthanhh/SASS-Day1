@@ -1,0 +1,38 @@
+@import '../helper/variables';
+@import '../helper/mixin';
+.course__content {
+    width: 1000px;
+    margin: auto;
+    .course__form {
+        &__first {
+            display: flex;
+            gap: 1em;
+        }
+        .form-group {
+            position: relative;
+            border: 1px solid rgba(0, 0, 0, .1);
+            border-radius: 20px;
+            overflow: hidden;
+            i {
+                @include cusIcon
+            }
+            input {
+                @include inputForm;
+                height: 3.7em;
+                color: $main-font-color;
+            }
+            .form-control {
+                @include inputForm;
+                height: unset;
+            }
+            textarea {
+                @include inputForm;
+            }
+        }
+        .btnContact {
+            padding: 30px 0 0;
+            height: 4em;
+            width: 100%;
+        }
+    }
+}

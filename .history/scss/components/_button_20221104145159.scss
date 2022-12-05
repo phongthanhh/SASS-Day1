@@ -1,0 +1,22 @@
+@import '../helper/variables';
+// 
+.btn__main {
+    border: none;
+    outline: none;
+    background: transparent;
+    color: white;
+    border-radius: 50px;
+    transition: all .3s ease;
+    text-align: center;
+    cursor: pointer;
+    box-shadow: 0 0 0 3em $main-color inset;
+    font-weight: 700;
+}
+
+.btn__header {
+    padding: 1.1em 1.5em;
+}
+
+.btn__main:hover {
+    box-shadow: 0 0 0 1px $main-color inset;
+}

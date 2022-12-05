@@ -1,0 +1,36 @@
+@import '../helper/variables';
+@import '../helper/mixin';
+.course__content {
+    width: 1000px;
+    margin: auto;
+    .course__form {
+        &__first {
+            display: flex;
+            gap: 1em;
+        }
+        .form-group {
+            position: relative;
+            border: 1px solid rgba(0, 0, 0, .1);
+            border-radius: 20px;
+            overflow: hidden;
+            i {
+                @include cusIcon
+            }
+            input {
+                border: none;
+                outline: none;
+                padding: 1em 1em 1em 3.5em !important;
+                font-size: .8em !important;
+                height: 3.7em;
+                color: $main-font-color;
+            }
+            .form-control {
+                padding: 12px 12px 12px 42px;
+                height: unset;
+                border: none;
+                outline: none;
+                font-size: .8em !important;
+            }
+        }
+    }
+}

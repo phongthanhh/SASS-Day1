@@ -1,0 +1,10 @@
+@import '../helper/variables';
+.card__content {
+    display: flex;
+    // gap: 2em;
+    // flex-wrap: wrap;
+}
+
+.card {
+    width: 25% !important;
+}

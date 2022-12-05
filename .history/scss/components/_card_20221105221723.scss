@@ -1,0 +1,10 @@
+@import '../helper/variables';
+.card {
+    text-align: center;
+}
+
+.card-body {
+    &__country {
+        color: $main-color;
+    }
+}

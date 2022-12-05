@@ -1,0 +1,11 @@
+@import '../helper/variables';
+.card__content {
+    &__top {
+        display: flex;
+        gap: 2em;
+    }
+}
+
+.card {
+    width: 25% !important;
+}

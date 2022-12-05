@@ -1,0 +1,21 @@
+@import './variables';
+@mixin cusIcon {
+    position: absolute;
+    top: 1em;
+    left: 1em;
+    line-height: 1;
+    color: $main-color
+}
+
+@mixin inputForm {
+    padding: 1em 1em 1em 3.5em;
+    border: none;
+    outline: none;
+    font-size: .8em !important;
+}
+
+@mixin MediaQuery ($type) {
+    @if $type==$sm {
+        @media screen and (min-width: $sm) {}
+    }
+}

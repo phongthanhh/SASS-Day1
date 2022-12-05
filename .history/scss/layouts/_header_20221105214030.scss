@@ -1,0 +1,30 @@
+@import '../helper/variables';
+.headerNav {
+    padding: 0;
+    justify-content: space-between !important;
+}
+
+.headerUl {
+    font-size: 13px;
+    font-weight: 600;
+    li {
+        padding: 0 50px 0 0 !important;
+        a {
+            color: $main-font-color !important;
+            transition: all 0.3s;
+            &:hover {
+                color: $main-color !important;
+            }
+        }
+    }
+}
+
+.topBarInMenuCell {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    a {
+        color: $main-font-color;
+        font-size: 15px;
+    }
+}

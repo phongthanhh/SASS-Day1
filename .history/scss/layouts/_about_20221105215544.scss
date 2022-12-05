@@ -1,0 +1,17 @@
+@import '../helper/variables';
+.about {
+    // background: url(../img/yellow_top_wave_01.png);
+    overflow: hidden;
+}
+
+.aboutUs {
+    align-items: center;
+    &__left {
+        &__h1 {
+            &__top {
+                font-size: 15px;
+                display: block;
+            }
+        }
+    }
+}

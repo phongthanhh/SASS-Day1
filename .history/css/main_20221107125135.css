@@ -1,0 +1,197 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    text-indent: 1px;
+    text-overflow: "";
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+}
+
+.container {
+    max-width: 1260px;
+}
+
+.btn__main {
+    border: none;
+    outline: none;
+    background: transparent;
+    color: white;
+    border-radius: 50px;
+    transition: all 0.3s ease;
+    text-align: center;
+    cursor: pointer;
+    overflow: hidden;
+    box-shadow: 0 0 0 3em #b61984 inset;
+}
+
+.btn__header {
+    padding: 1em 1.3em;
+    font-weight: 500;
+    font-size: 13.5px;
+}
+
+.btn__main.btn__header:hover {
+    box-shadow: 0 0 0 1px #b61984 inset;
+    color: #b61984;
+}
+
+.card {
+    text-align: center;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: rgb(255, 255, 255);
+    outline: none;
+    transition: all 0.5s;
+}
+
+.card:hover {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.card:hover img {
+    transition: all 0.5s;
+}
+
+.card-body-country {
+    color: #b61984;
+    font-size: 11.5px;
+    font-weight: 600;
+}
+
+.card-body-title {
+    color: #191919;
+    font-size: 23px;
+    font-weight: 700;
+}
+
+.card-body-text {
+    font-family: "Roboto", sans-serif;
+    color: #181818;
+    font-size: 15px;
+}
+
+.headerNav {
+    padding: 0;
+    justify-content: space-between !important;
+}
+
+.headerUl {
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.headerUl li {
+    padding: 0 50px 0 0 !important;
+}
+
+.headerUl li a {
+    color: #181818 !important;
+    transition: all 0.3s;
+}
+
+.headerUl li a:hover {
+    color: #b61984 !important;
+}
+
+.topBarInMenuCell {
+    display: flex;
+    align-items: center;
+}
+
+.topBarInMenuCell__link {
+    margin-left: 20px;
+    display: flex;
+    gap: 10px;
+}
+
+.topBarInMenuCell__link i {
+    color: #181818;
+    font-size: 14px;
+    transition: all 0.3s;
+}
+
+.topBarInMenuCell__link i:hover {
+    color: #b61984;
+}
+
+.about {
+    overflow: hidden;
+}
+
+.aboutUs {
+    align-items: center;
+}
+
+.aboutUs__left__h1__top {
+    font-size: 16.5px;
+    color: #b61984;
+    display: block;
+}
+
+.aboutUs__left__h1__bot {
+    font-size: 57px;
+    color: #181818;
+    font-weight: 700;
+    display: block;
+}
+
+.course__content {
+    width: 1000px;
+    margin: auto;
+}
+
+.course__form__first {
+    display: flex;
+    gap: 1em;
+}
+
+.course__form {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.course__form i {
+    position: absolute;
+    top: 1em;
+    left: 1em;
+    line-height: 1;
+    color: #b61984;
+}
+
+.course__form input {
+    border: none;
+    outline: none;
+    padding: 1em 1em 1em 3.5em !important;
+    font-size: 0.8em !important;
+    height: 3.7em;
+    color: #181818;
+}
+
+.course__form__select i {
+    position: absolute;
+    top: 1em;
+    left: 1em;
+    line-height: 1;
+    color: #b61984;
+}
+
+.active {
+    color: red;
+}
+
+
+/*# sourceMappingURL=main.css.map */

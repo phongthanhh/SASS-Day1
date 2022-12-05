@@ -1,0 +1,53 @@
+@import '../helper/variables';
+@import '../helper/mixin';
+.course {
+    background-image: url(../img/accent_bottom_wave_01.png)
+}
+
+.course__content {
+    width: 1000px;
+    margin: auto;
+    .course__form {
+        padding: 0 25px 4em;
+        text-align: center;
+        &__title {
+            font-weight: 700;
+            margin-bottom: 40px;
+            font-size: 2.3em;
+        }
+        &__first {
+            display: flex;
+            gap: 1em;
+        }
+        .form-group {
+            position: relative;
+            border: 1px solid rgba(0, 0, 0, .1);
+            border-radius: 20px;
+            overflow: hidden;
+            i {
+                @include cusIcon
+            }
+            input {
+                @include inputForm;
+                height: 3.7em;
+                color: $main-font-color;
+            }
+            .form-control {
+                @include inputForm;
+                height: unset;
+            }
+            textarea {
+                @include inputForm;
+            }
+        }
+        .btnContact {
+            max-width: 150px;
+            padding-top: 2em;
+            a {
+                display: block;
+                width: 100%;
+                letter-spacing: 1px;
+            }
+        }
+    }
+}

@@ -1,0 +1,33 @@
+@import '../helper/variables';
+.about {
+    position: relative;
+    padding-top: 5em !important;
+    overflow: hidden;
+    &__bgTop {
+        position: absolute;
+        top: 0;
+        right: 0;
+        left: 0;
+        // background-image: url(../img/yellow_top_wave_01.png);
+        // z-index: 5;
+        // background-size: 100%;
+    }
+    .aboutUs {
+        align-items: center;
+        &__left {
+            &__h1 {
+                &__top {
+                    font-size: 16.5px;
+                    color: $main-color;
+                    display: block;
+                }
+                &__bot {
+                    font-size: 57px;
+                    color: $main-font-color;
+                    font-weight: 700;
+                    display: block;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,8 @@
+@import '../helper/variables';
+@import '../helper/mixin';
+.footer__content {
+    padding: 8em 0;
+    background-image: url(../img/footer_background.jpg);
+    // background-size: 100%;
+    background-size: cover;
+}

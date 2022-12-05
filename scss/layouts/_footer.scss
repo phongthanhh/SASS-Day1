@@ -1,0 +1,81 @@
+@import '../helper/variables';
+@import '../helper/mixin';
+.footer__content {
+    padding: 8em 0;
+    background-image: url(../img/footer_background.jpg);
+    background-size: cover;
+    background-position: center;
+    .footer__column {
+        padding: 0 40px 5em;
+        color: #fff;
+        font-size: 13.5px;
+        a {
+            color: #fff;
+        }
+        &__item {
+            .form-group {
+                padding-bottom: .5em;
+                input {
+                    display: block;
+                    width: 100%;
+                    font-size: 13.5px;
+                    padding: 15px;
+                    background: transparent;
+                    outline: none;
+                    text-align: center;
+                    box-shadow: unset;
+                    border-radius: 50px;
+                    border: 1px solid rgba(255, 255, 255, .1);
+                    color: #fff;
+                }
+                 ::placeholder {
+                    color: #fff;
+                    opacity: 1;
+                }
+            }
+            &__title {
+                font-weight: 700;
+                margin-bottom: 1.5em;
+            }
+            ul {
+                width: max-content;
+                li {
+                    padding-bottom: .8em;
+                }
+            }
+            .ftLink {
+                padding-top: 1em;
+                a {
+                    padding-right: .7em;
+                    transition: all .3s;
+                    &:hover {
+                        color: $main-font-color
+                    }
+                }
+            }
+        }
+        &__item.quickLink,
+        &__item.FTabout {
+            li:first-child {
+                padding-top: 0;
+            }
+            li {
+                padding: 0.8em 0;
+                border-bottom: 1px solid rgba(0, 0, 0, .1);
+                line-height: 1;
+                a {
+                    transition: all .3s;
+                    &:hover {
+                        opacity: .8;
+                    }
+                }
+            }
+        }
+        .btnFt {
+            a {
+                display: block;
+                width: 100%;
+            }
+        }
+    }
+}

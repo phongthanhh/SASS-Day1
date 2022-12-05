@@ -1,0 +1,22 @@
+@import '../helper/variables';
+.course__content {
+    width: 1000px;
+    margin: auto;
+}
+
+.course__form .form-group {
+    border: 1px solid black;
+    padding: 5px 5px 5px 30px;
+    position: relative;
+    border-radius: 20px;
+    i {
+        position: absolute;
+        top: 1em;
+        left: 1em;
+        line-height: 1;
+    }
+    input {
+        border: none;
+        outline: none;
+    }
+}

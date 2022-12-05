@@ -1,0 +1,13 @@
+@import '../helper/variables';
+.headerNav {}
+
+.headerUl {
+    font-size: 13px;
+    font-weight: 600;
+    li {
+        padding: 0 50px 0 0 !important;
+        a {
+            color: $main-font-color !important;
+        }
+    }
+}

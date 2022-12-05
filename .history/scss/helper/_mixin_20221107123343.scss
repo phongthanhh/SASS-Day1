@@ -1,0 +1,8 @@
+@import './variables';
+@mixin cusIcon {
+    position: absolute;
+    top: 1em;
+    left: 1em;
+    line-height: 1;
+    color: $main-color
+}

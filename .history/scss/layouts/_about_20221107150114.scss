@@ -1,0 +1,35 @@
+@import '../helper/variables';
+.about {
+    position: relative;
+    padding-top: 5em !important;
+    overflow: hidden;
+    z-index: 1;
+    &__bgTop {
+        position: absolute;
+        top: 0;
+        right: 0;
+        left: 0;
+        background-size: cover;
+    }
+    &__bgBot {}
+    .aboutUs {
+        position: relative;
+        z-index: 3;
+        align-items: center;
+        &__left {
+            &__h1 {
+                &__top {
+                    font-size: 16.5px;
+                    color: $main-color;
+                    display: block;
+                }
+                &__bot {
+                    font-size: 57px;
+                    color: $main-font-color;
+                    font-weight: 700;
+                    display: block;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,26 @@
+@import '../helper/variables';
+.course__content {
+    width: 1000px;
+    margin: auto;
+}
+
+.course__form .form-group {
+    border: 1px solid rgba(0, 0, 0, .1);
+    position: relative;
+    border-radius: 20px;
+    overflow: hidden;
+    i {
+        position: absolute;
+        top: 1em;
+        left: 1em;
+        line-height: 1;
+        color: $main-color
+    }
+    input {
+        border: none;
+        outline: none;
+        padding: 1em 1em 1em 3.5em !important;
+        font-size: .8em !important;
+        height: 3.7em;
+    }
+}

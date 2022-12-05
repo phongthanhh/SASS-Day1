@@ -1,0 +1,15 @@
+@import '../helper/variables';
+.card {
+    text-align: center;
+}
+
+.card-body {
+    &-country {
+        color: $main-color;
+        font-size: 11.5px;
+        font-weight: 600;
+    }
+    &-title {
+        color: $main-font-color;
+    }
+}
